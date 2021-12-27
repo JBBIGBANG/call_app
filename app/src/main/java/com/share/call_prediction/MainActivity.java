@@ -20,6 +20,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     private TextView textView;
     Button callButton;
+    Button login_button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +35,21 @@ public class MainActivity extends AppCompatActivity {
                 openCallListView();
             }
         });
+
+        login_button = findViewById(R.id.login_button);
+        login_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openRegisterView();
+            }
+        });
+
+    }
+
+    private void openRegisterView() {
+        Intent intent= new Intent(this,Register.class);
+        intent.putExtra("login_button" , "invisible");
+        startActivity(intent);
     }
 
     private void openCallListView() {
