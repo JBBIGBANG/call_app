@@ -5,19 +5,7 @@
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/Joy sarkar/call-prediction-app-main/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1890896921017403" />
-        <entry key="..\:/Joy sarkar/call-prediction-app-main/app/src/main/res/layout-w936dp/activity_login.xml" value="0.220703125" />
-        <entry key="..\:/Joy sarkar/call-prediction-app-main/app/src/main/res/layout/activity_call_log_list.xml" value="0.2942708333333333" />
-        <entry key="..\:/Joy sarkar/call-prediction-app-main/app/src/main/res/layout/activity_login.xml" value="0.2942708333333333" />
-        <entry key="..\:/Joy sarkar/call-prediction-app-main/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
-        <entry key="..\:/Joy sarkar/call-prediction-app-main/app/src/main/res/layout/activity_register.xml" value="0.2942708333333333" />
-      </map>
-    </option>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
